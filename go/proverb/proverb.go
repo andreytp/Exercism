@@ -1,13 +1,9 @@
-// This is a "stub" file.  It's a little start on your solution.
-// It's not a complete solution though; you have to write some code.
-
-// Package proverb should have a package comment that summarizes what it's about.
-// https://golang.org/doc/effective_go.html#commentary
+// Package proverb make proverbs
 package proverb
 
 import "fmt"
 
-// Proverb should have a comment documenting it.
+// Proverb gets rhyme as slice of string and returns proverb as slice of string 
 func Proverb(rhyme []string) []string {
 	rhymelen := len(rhyme)
 	if rhymelen == 0 {
